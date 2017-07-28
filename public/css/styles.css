@@ -1,0 +1,51 @@
+.too-small {
+  display: none;
+}
+.todo-container {
+  width: 500px;
+  margin: 5px auto;
+  margin-top: 20px;
+}
+
+.add-todo-container {
+  margin-bottom: 7px;
+}
+
+.add-todo-container .col-md-10 {
+  padding-left: 0;
+}
+
+.add-todo-container .col-md-2 {
+  padding-right: 0;
+  text-align: right;
+}
+
+@media(max-width: 500px) {
+  .todo-container {
+    display: none;
+  }
+  .too-small {
+    margin: 50px;
+    padding: 15px;
+    border-style: solid;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+li.list-group-item:hover {
+  background-color: #d3ffce;
+}
+
+/*li.completed {
+  background-color: #d3ffce;
+}*/
+
+#click-edit:hover {
+  cursor: pointer;
+}
+
+#todo-text {
+  text-decoration: line-through;
+} 
